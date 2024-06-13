@@ -16,23 +16,24 @@
     font-weight: 900;
     font-size: 60px;
     margin: auto;
+    color: #fff;
 }
 
 #quotes {
     margin-top: 20vh;
     z-index: -1;
     width: 80vw;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(15, 1fr);
     margin-left: 10vw;
     margin-right: 10vw;
 }
 
 .quote {
-    padding: 5vh 5vw;
-    margin: -5vh -5vw;
+    padding: 10vh 5vw;
+    margin: -10vh -5vw;
     align-items: center;
     display: flex;
     text-align: center;
@@ -48,10 +49,10 @@
     font-size: larger;
 }
 
-#victor {
+#mathis {
     grid-column: 2;
     grid-row: 1;
-    background: radial-gradient(circle, rgba(14,0,255,1) 0%, rgba(0,0,0,0) 60%);
+    background: radial-gradient(circle, rgb(14,0,255) 0%, rgba(0,0,0,0) 60%);
 }
 
 #rafael {
@@ -62,7 +63,7 @@
 
 #antoine {
     grid-column: 1 / 4;
-    grid-row: 4 / 7;
+    grid-row: 6 / 9;
     background: radial-gradient(circle, rgb(255, 0, 106) 0%, rgba(0,0,0,0) 60%);
 }
 
@@ -72,14 +73,38 @@
     background: radial-gradient(circle, rgb(0, 204, 255) 0%, rgba(0,0,0,0) 40%);
 }
 
-#adam {
+#adam1 {
     grid-column: 8;
     grid-row: 4;
     background: radial-gradient(circle, rgb(140, 0, 255) 0%, rgba(0,0,0,0) 60%);
 }
 
+#adam2 {
+    grid-column: 5;
+    grid-row: 10;
+    background: radial-gradient(circle, rgb(140, 0, 255) 0%, rgba(0,0,0,0) 60%);
+}
+
 #clement {
-    grid-column: 3;
-    grid-row: 3;
+    grid-column: 4;
+    grid-row: 4;
     background: radial-gradient(circle, rgb(157, 255, 0) 0%, rgba(0,0,0,0) 30%);
+}
+
+#djibril {
+    grid-column: 8;
+    grid-row: 9;
+    background: radial-gradient(circle, rgb(14,0,255) 0%, rgba(0,0,0,0) 30%);
+}
+
+#renan {
+    grid-column: 2;
+    grid-row: 12;
+    background: radial-gradient(circle, rgb(0, 204, 255) 0%, rgba(0,0,0,0) 50%);
+}
+
+#eden {
+    grid-column: 7;
+    grid-row: 14;
+    background: radial-gradient(circle, rgb(157, 255, 0) 0%, rgba(0,0,0,0) 60%);
 }
