@@ -1,0 +1,66 @@
+#thanks {
+    min-height: calc(100vh - max(8vh, calc(4vh + 50px)));
+    /*padding-top: 40vh;
+    padding-bottom: 20vh;*/
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#thanks h1 {
+    font-weight: 900;
+    font-size: 60px;
+    margin: auto;
+}
+
+#quotes {
+    z-index: -1;
+    width: 80vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.quote h4{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: x-large;
+}
+
+.quote p {
+    font-size: larger;
+}
+
+#victor {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#rafael {
+    grid-column: 6;
+    grid-row: 7;
+}
+
+#antoine {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#lucien {
+    grid-column: 6;
+    grid-row: 2;
+}
+
+#adam {
+    grid-column: 8;
+    grid-row: 4;
+}
+
+#clement {
+    grid-column: 3;
+    grid-row: 3;
+}
