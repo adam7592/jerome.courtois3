@@ -1,20 +1,27 @@
-#thanks {
-    min-height: calc(100vh - max(8vh, calc(4vh + 50px)));
+#hero {
     /*padding-top: 40vh;
     padding-bottom: 20vh;*/
     margin: auto;
+    background-image: url(../images/4568290.jpg);
+}
+
+#message {
     display: flex;
     text-align: center;
     align-items: center;
+    backdrop-filter: blur(100px);
+    min-height: calc(100vh - max(8vh, calc(4vh + 50px)));
+    width: 100vw;
 }
 
-#thanks h1 {
+#hero #message h1 {
     font-weight: 900;
     font-size: 60px;
     margin: auto;
 }
 
 #quotes {
+    margin-top: 20vh;
     z-index: -1;
     width: 80vw;
     height: 100vh;
@@ -23,6 +30,14 @@
     grid-template-rows: repeat(8, 1fr);
     margin-left: 10vw;
     margin-right: 10vw;
+}
+
+.quote {
+    padding: 5vh 5vw;
+    margin: -5vh -5vw;
+    align-items: center;
+    display: flex;
+    text-align: center;
 }
 
 .quote h4{
@@ -38,29 +53,35 @@
 #victor {
     grid-column: 2;
     grid-row: 1;
+    background: radial-gradient(circle, rgba(14,0,255,1) 0%, rgba(0,0,0,0) 60%);
 }
 
 #rafael {
     grid-column: 6;
     grid-row: 7;
+    background: radial-gradient(circle, rgb(0, 255, 170) 0%, rgba(0,0,0,0) 50%);
 }
 
 #antoine {
-    grid-column: 1;
-    grid-row: 4;
+    grid-column: 1 / 4;
+    grid-row: 4 / 7;
+    background: radial-gradient(circle, rgb(255, 0, 106) 0%, rgba(0,0,0,0) 60%);
 }
 
 #lucien {
     grid-column: 6;
     grid-row: 2;
+    background: radial-gradient(circle, rgb(0, 204, 255) 0%, rgba(0,0,0,0) 40%);
 }
 
 #adam {
     grid-column: 8;
     grid-row: 4;
+    background: radial-gradient(circle, rgb(140, 0, 255) 0%, rgba(0,0,0,0) 60%);
 }
 
 #clement {
     grid-column: 3;
     grid-row: 3;
+    background: radial-gradient(circle, rgb(157, 255, 0) 0%, rgba(0,0,0,0) 30%);
 }
