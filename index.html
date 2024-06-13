@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="fr" data-theme='dark'>
+<html lang="fr" data-theme='light' id="root">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="assets/style/index.css">
         <link rel="stylesheet" type="text/css" href="assets/style/home.css">
 
+        <script src="./assets/scripts/index.js"></script>
+
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>jerome.courtois3</title>
     </head>
     <body>
-        <script>
-            AOS.init();
-          </script>
         <header>
             <div id="title">
                 <a href="./index.html">jerome.courtois3</a>
@@ -23,15 +22,30 @@
             </div>
         </header>
         <main>
+            <script>
+                AOS.init();
+            </script>
             <div id="hero">
                 <div id="message">
                     <h1>Merci M. Courtois</h1>
                 </div>
             </div>
             <div id="quotes">
-                <div class="quote" id="victor" data-aos="zoom-in-up">
+                <div class="quote" id="adam1" data-aos="zoom-in-up">
                     <div class="quote-content">
-                        <h4>Victor</h4>
+                        <h4>Adam B.</h4>
+                        <p>Le meilleur professeur</p>
+                    </div>
+                </div>
+                <div class="quote" id="djibril" data-aos="zoom-in-up">
+                    <div class="quote-content">
+                        <h4>Djibril B.</h4>
+                        <p>Le meilleur professeur</p>
+                    </div>
+                </div>
+                <div class="quote" id="renan" data-aos="zoom-in-right">
+                    <div class="quote-content">
+                        <h4>Renan</h4>
                         <p>Le meilleur professeur</p>
                     </div>
                 </div>
@@ -59,15 +73,24 @@
                         <p>Le meilleur professeur</p>
                     </div>
                 </div>
-                <div class="quote" id="adam" data-aos="zoom-in-left">
+                <div class="quote" id="adam2" data-aos="zoom-in">
                     <div>
-                        <h4>Adam</h4>
+                        <h4>Adam K.</h4>
                         <p>Le meilleur professeur</p>
                     </div>
                 </div>
-            </div>
-            <div id="memories">
-                <h1 style="display: none;">Les meilleurs moments</h1>
+                <div class="quote" id="eden" data-aos="zoom-in-up">
+                    <div class="quote-content">
+                        <h4>Eden</h4>
+                        <p>Le meilleur professeur</p>
+                    </div>
+                </div>
+                <div class="quote" id="mathis" data-aos="zoom-in-right">
+                    <div class="quote-content">
+                        <h4>Mathis</h4>
+                        <p>Le meilleur professeur</p>
+                    </div>
+                </div>
             </div>
         </main>
         <footer></footer>

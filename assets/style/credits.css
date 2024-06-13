@@ -1,0 +1,14 @@
+#creators {
+    margin-top: 10vh;
+    font-size: 1.8em;
+}
+
+#creators h2{
+    text-align: center;
+}
+
+#creators ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
