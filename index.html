@@ -1,98 +1,121 @@
 <!DOCTYPE html>
-<html lang="fr" data-theme='light' id="root">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="assets/style/index.css">
-        <link rel="stylesheet" type="text/css" href="assets/style/home.css">
+<html lang="fr" data-theme="light" id="root">
 
-        <script src="./assets/scripts/index.js"></script>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/style/index.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style/home.css" />
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <title>jerome.courtois3</title>
-    </head>
-    <body>
-        <header>
-            <div id="title">
-                <a href="./index.html">jerome.courtois3</a>
-            </div>
-            <div id="links">
-                <a href="./pages/credits.html">Crédits</a>
-            </div>
-        </header>
-        <main>
-            <script>
-                AOS.init();
-            </script>
-            <div id="hero">
-                <div id="message">
-                    <h1>Merci M. Courtois</h1>
+    <script src="./assets/scripts/index.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>jerome.courtois3</title>
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <a href="./index.html">jerome.courtois3</a>
+        </div>
+        <div id="links">
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div id="dropdown-content">
+                    <a href="#">Adam B.</a>
+                    <a href="#">Djibril</a>
+                    <a href="#">Lucien</a>
+                    <a href="#">Renan</a>
+                    <a href="#">Antoine</a>
+                    <a href="#">Clément</a>
+                    <a href="#">Eden</a>
+                    <a href="#">Mathis</a>
+                    <a href="#">Rafael</a>
+                    <a href="#">Adam Z.</a>
                 </div>
             </div>
-            <div id="quotes">
-                <div class="quote" id="adam1" data-aos="zoom-in-up">
-                    <div class="quote-content">
-                        <h4>Adam B.</h4>
-                        <p>Le meilleur professeur</p>
-                    </div>
-                </div>
-                <div class="quote" id="djibril" data-aos="zoom-in-up">
-                    <div class="quote-content">
-                        <h4>Djibril B.</h4>
-                        <p>Le meilleur professeur</p>
-                    </div>
-                </div>
-                <div class="quote" id="renan" data-aos="zoom-in-right">
-                    <div class="quote-content">
-                        <h4>Renan</h4>
-                        <p>Le meilleur professeur</p>
-                    </div>
-                </div>
-                <div class="quote" id="rafael" data-aos="zoom-in-left">
-                    <div class="quote-content">
-                        <h4>Rafael</h4>
-                        <p>Le meilleur professeur</p>
-                    </div>
-                </div>
-                <div class="quote" id="antoine" data-aos="zoom-in-right">
-                    <div class="quote-content">
-                        <h4>Antoine</h4>
-                        <p>Quaerat quaerat incidunt perferendis. Quidem laudantium expedita ratione voluptates excepturi. Quia consectetur omnis facere. Ipsum nemo harum maiores enim. Perferendis in sunt iusto at quod illo minima odit.</p>
-                    </div>
-                </div>
-                <div class="quote" id="lucien" data-aos="zoom-in-left">
-                    <div class="quote-content">
-                        <h4>Lucien</h4>
-                        <p>Le meilleur professeur</p>
-                    </div>
-                </div>
-                <div class="quote" id="clement" data-aos="zoom-in">
-                    <div class="quote-content">
-                        <h4>Clément</h4>
-                        <p>Le meilleur professeur</p>
-                    </div>
-                </div>
-                <div class="quote" id="adam2" data-aos="zoom-in">
-                    <div>
-                        <h4>Adam K.</h4>
-                        <p>Le meilleur professeur</p>
-                    </div>
-                </div>
-                <div class="quote" id="eden" data-aos="zoom-in-up">
-                    <div class="quote-content">
-                        <h4>Eden</h4>
-                        <p>Le meilleur professeur</p>
-                    </div>
-                </div>
-                <div class="quote" id="mathis" data-aos="zoom-in-right">
-                    <div class="quote-content">
-                        <h4>Mathis</h4>
-                        <p>Le meilleur professeur</p>
-                    </div>
+            <div class="button"><a href="./pages/credits.html">Crédits</a></div>
+        </div>
+    </header>
+    <main>
+        <script>
+            AOS.init();
+        </script>
+        <div id="hero">
+            <div id="message">
+                <h1>Merci M. Courtois</h1>
+            </div>
+        </div>
+        <div id="quotes">
+            <div class="quote" id="adam1" data-aos="zoom-in-up">
+                <div class="quote-content">
+                    <h4>Adam B.</h4>
+                    <p>Le meilleur professeur</p>
                 </div>
             </div>
-        </main>
-        <footer></footer>
-    </body>
+            <div class="quote" id="djibril" data-aos="zoom-in-up">
+                <div class="quote-content">
+                    <h4>Djibril B.</h4>
+                    <p>Le meilleur professeur</p>
+                </div>
+            </div>
+            <div class="quote" id="renan" data-aos="zoom-in-right">
+                <div class="quote-content">
+                    <h4>Renan</h4>
+                    <p>Le meilleur professeur</p>
+                </div>
+            </div>
+            <div class="quote" id="rafael" data-aos="zoom-in-left">
+                <div class="quote-content">
+                    <h4>Rafael</h4>
+                    <p>Le meilleur professeur</p>
+                </div>
+            </div>
+            <div class="quote" id="antoine" data-aos="zoom-in-right">
+                <div class="quote-content">
+                    <h4>Antoine</h4>
+                    <p>
+                        Quaerat quaerat incidunt perferendis. Quidem laudantium expedita
+                        ratione voluptates excepturi. Quia consectetur omnis facere. Ipsum
+                        nemo harum maiores enim. Perferendis in sunt iusto at quod illo
+                        minima odit.
+                    </p>
+                </div>
+            </div>
+            <div class="quote" id="lucien" data-aos="zoom-in-left">
+                <div class="quote-content">
+                    <h4>Lucien</h4>
+                    <p>Le meilleur professeur</p>
+                </div>
+            </div>
+            <div class="quote" id="clement" data-aos="zoom-in">
+                <div class="quote-content">
+                    <h4>Clément</h4>
+                    <p>Le meilleur professeur</p>
+                </div>
+            </div>
+            <div class="quote" id="adam2" data-aos="zoom-in">
+                <div>
+                    <h4>Adam K.</h4>
+                    <p>Le meilleur professeur</p>
+                </div>
+            </div>
+            <div class="quote" id="eden" data-aos="zoom-in-up">
+                <div class="quote-content">
+                    <h4>Eden</h4>
+                    <p>Le meilleur professeur</p>
+                </div>
+            </div>
+            <div class="quote" id="mathis" data-aos="zoom-in-right">
+                <div class="quote-content">
+                    <h4>Mathis</h4>
+                    <p>Le meilleur professeur</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
 </html>
